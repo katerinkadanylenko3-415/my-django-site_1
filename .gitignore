@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Django stuff
+*.log
+db.sqlite3
+media/
+staticfiles/
+
+# PyCharm / IDE
+.idea/
+*.iml
+*.iws
+
+# Django migrations (залишаємо тільки файли __init__.py у папках migrations)
+website/*/migrations/*.pyc
+website/*/migrations/*_cache*
+!website/*/migrations/__init__.py
+
+# System files
+.DS_Store
+Thumbs.db
